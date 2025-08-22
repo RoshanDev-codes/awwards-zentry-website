@@ -93,7 +93,7 @@ const Hero = () => {
         className="relative h-dvh w-screen overflow-hidden z-10 rounded-lg bg-blue-75"
       >
         <div>
-          <div className="mask-clip-path size-64 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] rounded-lg cursor-pointer overflow-hidden z-50">
+          <div className="mask-clip-path size-64 max-sm:size-48 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] rounded-lg cursor-pointer overflow-hidden z-50">
             <div
               onClick={handleMiniVideoClick}
               className="origin-center scale-50 opacity-0 transition-all duration-500 ease-in hover:scale-100 hover:opacity-100"
